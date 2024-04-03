@@ -1,17 +1,23 @@
-# Maternal_health
-This dataset has been collected from different hospitals, community clinics, maternal health cares through the IoT based risk monitoring system.
+Maternal Health Dataset
+=======================
 
-Data has been collected from different hospitals, community clinics, maternal health cares through the IoT based risk monitoring system.
+This dataset has been collected from various sources including hospitals, community clinics, and maternal health care facilities through an IoT-based risk monitoring system.
 
-Age: Age in years when a woman is pregnant.
+### Variables:
 
-SystolicBP: Upper value of Blood Pressure in mmHg, another significant attribute during pregnancy.
+*   **Age:** Age of the woman during pregnancy (in years).
+*   **SystolicBP:** Upper value of blood pressure (mmHg), a significant attribute during pregnancy.
+*   **DiastolicBP:** Lower value of blood pressure (mmHg), another significant attribute during pregnancy.
+*   **BS:** Blood glucose levels measured in terms of molar concentration (mmol/L).
+*   **HeartRate:** Resting heart rate in beats per minute.
+*   **Risk Level:** Predicted risk intensity level during pregnancy, based on the previous attributes.
 
-DiastolicBP: Lower value of Blood Pressure in mmHg, another significant attribute during pregnancy.
+### Instructions:
 
-BS: Blood glucose levels is in terms of a molar concentration, mmol/L.
+After pulling the repository, follow these steps to run the Python application:
 
-HeartRate: A normal resting heart rate in beats per minute.
-
-Risk Level: Predicted Risk Intensity Level during pregnancy considering the previous attribute.
+1.  Open your terminal or command prompt.
+2.  Navigate to the directory where you pulled the repository.
+3.  Load the `python3 app.py` file.
+4.  Run the application locally by accessing `http://127.0.0.1:5000` in your web browser.
 
