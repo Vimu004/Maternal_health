@@ -47,7 +47,7 @@
                 <span class="label">Get Results</span>
             </button>
 
-            <button class="button" type="Clear">
+            <button class="button" type="button" onclick="clearForm()">
                 <span class="transition"></span>
                 <span class="gradient"></span>
                 <span class="label">Clear</span>
@@ -118,8 +118,12 @@
                     dash.innerHTML = fieldHtml + riskHtml;
                 }
             };
-            xhr.send(new URLSearchParams(formData)); // Send form data
+            xhr.send(new URLSearchParams(formData)); 
         });
+
+        function clearForm() {
+            document.getElementById("inputForm").reset();
+        }
     </script>
 </body>
 
